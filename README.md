@@ -79,9 +79,9 @@ Sentiti libero di creare delle Pull Request o aprire delle Issue per suggerire n
 Questo progetto è distribuito sotto la licenza MIT. Vedi il file LICENSE per ulteriori dettagli.
 ```
 
-## Spiegazione del Funzionamento
+**## Spiegazione del Funzionamento
 
-- **Flask** gestisce l'intero backend dell'applicazione. Quando un utente accede all'endpoint `'/'`, viene eseguita la funzione `index()` che carica ed elabora i dati.
+- Flask gestisce l'intero backend dell'applicazione. Quando un utente accede all'endpoint `'/'`, viene eseguita la funzione `index()` che carica ed elabora i dati.
 - I dati vengono elaborati nel modulo `data_processing.py`, che si trova nella cartella `/modules/` per una migliore organizzazione e separazione della logica.
 - Sono stati aggiunti campi di input e un pulsante per filtrare i dati in base a un intervallo di date. Quando l'utente clicca sul pulsante "Filtra", viene fatta una richiesta AJAX per aggiornare la tabella con i dati filtrati.
 - **jQuery** è stato aggiunto per gestire l'interattività della pagina, consentendo di filtrare i dati senza ricaricare l'intera pagina.
@@ -96,6 +96,5 @@ python app.py
 ```
 L'app sarà disponibile su `http://xxx.xxx.xxx`.
 
-**Note Finali**
 
-Questa versione dell'applicazione ha più interattività, consentendo agli utenti di filtrare i dati finanziari in base alle date scelte. Inoltre, l'interfaccia è stata migliorata con Bootstrap e jQuery per rendere l'esperienza utente più dinamica e intuitiva.
+
