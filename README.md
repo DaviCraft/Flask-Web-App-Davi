@@ -1,5 +1,6 @@
 # Flask-Web-App-Davi
-Flask Web-App Davi is a web app to test basic modules and scripts
+The Flask Web-App Davi is a platform designed to test fundamental modules and scripts
+
 Struttura del progetto 
 
 ```
