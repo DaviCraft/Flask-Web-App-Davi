@@ -79,7 +79,7 @@ Sentiti libero di creare delle Pull Request o aprire delle Issue per suggerire n
 Questo progetto è distribuito sotto la licenza MIT. Vedi il file LICENSE per ulteriori dettagli.
 ```
 
-4. **Spiegazione del Funzionamento**
+**Spiegazione del Funzionamento**
 
 - **Flask** gestisce l'intero backend dell'applicazione. Quando un utente accede all'endpoint `'/'`, viene eseguita la funzione `index()` che carica ed elabora i dati.
 - I dati vengono elaborati nel modulo `data_processing.py`, che si trova nella cartella `/modules/` per una migliore organizzazione e separazione della logica.
@@ -88,14 +88,14 @@ Questo progetto è distribuito sotto la licenza MIT. Vedi il file LICENSE per ul
 - **Bootstrap** viene utilizzato per stilizzare l'interfaccia, rendendo la tabella e i filtri visivamente gradevoli.
 - **CSS personalizzato** è stato aggiunto per migliorare l'aspetto dell'app e per centrare meglio gli elementi.
 
-5. **Esecuzione dell'App**
+**Esecuzione dell'App**
 
 Per avviare l'applicazione, esegui il comando:
 ```bash
 python app.py
 ```
-L'app sarà disponibile su `http://127.0.0.1:5000/`.
+L'app sarà disponibile su `http://xxx.xxx.xxx`.
 
-6. **Note Finali**
+**Note Finali**
 
 Questa versione dell'applicazione ha più interattività, consentendo agli utenti di filtrare i dati finanziari in base alle date scelte. Inoltre, l'interfaccia è stata migliorata con Bootstrap e jQuery per rendere l'esperienza utente più dinamica e intuitiva.
