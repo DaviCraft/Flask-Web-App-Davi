@@ -34,7 +34,7 @@ Questa è un'applicazione web sviluppata utilizzando Flask, che permette agli ut
 
 ## Come Utilizzare il Progetto
 
-NB: Il termine "bash" è un tipo di shell, cioè un'interfaccia che permette di eseguire comandi su un computer.  In pratica, puoi pensare a bash come al Prompt dei Comandi di Windows o Anaconda Prompt: sono tutti terminali che puoi usare per dare istruzioni al computer.
+NB: Usa un'interfaccia che permette di eseguire comandi su un computer, come Prompt dei Comandi di Windows o Anaconda Prompt: sono tutti terminali che puoi usare per dare istruzioni al computer. Potresti voler usare anche Jupyter, tuttavia per progettini Web-App meglio usare ambienti o IDE (eg. Prompt dei Comandi di Windows o Anaconda Prompt per cose base, oppure PyCharm, Spyder, Visual Studio, etc)
 
 
 1. **Installa le Dipendenze**
