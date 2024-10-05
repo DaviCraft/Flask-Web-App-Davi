@@ -77,9 +77,8 @@ Sentiti libero di creare delle Pull Request o aprire delle Issue per suggerire n
 
 ## Licenza
 Questo progetto è distribuito sotto la licenza MIT. Vedi il file LICENSE per ulteriori dettagli.
-```
 
-**## Spiegazione del Funzionamento
+**Spiegazione del Funzionamento**
 
 - Flask gestisce l'intero backend dell'applicazione. Quando un utente accede all'endpoint `'/'`, viene eseguita la funzione `index()` che carica ed elabora i dati.
 - I dati vengono elaborati nel modulo `data_processing.py`, che si trova nella cartella `/modules/` per una migliore organizzazione e separazione della logica.
